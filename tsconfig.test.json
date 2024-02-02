@@ -1,0 +1,9 @@
+{
+    "extends": "./tsconfig.json",
+    "compilerOptions": {
+      "outDir": "__test__" /* Redirect output structure to the directory. */
+    },
+	"include": ["src/*.ts", "src/*/*.ts", "test/*.ts", "test/*/*.ts"],
+	"exclude": ["node_modules", "dist"]
+  }
+  
