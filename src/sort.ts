@@ -33,7 +33,7 @@ export default class Sort<T> {
             return b;
         if (b == null)
             return a;
-        console.log("order", order);
+
         switch (order) {
             case -1: {
                 if (<T>a?.val <= <T>b?.val) {
